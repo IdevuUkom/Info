@@ -4,6 +4,6 @@ git clone <URL>
 ### учесть все файлы:
 git add .
 ### Сохранить коммит:
-git comit -m "..."
+git commit -m "..."
 ### отправка в облако:
 git push
