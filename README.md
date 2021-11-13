@@ -35,3 +35,5 @@ git push
 [git-scm.](https://git-scm.com/)
 ### VS code:
 [code.visualstudio.](https://code.visualstudio.com/)
+## Анимации:
+[css.animation](https://html5books.ru/css-animation/)
