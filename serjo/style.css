@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #002460;
+    font-family: 'rodoto' , 'sans-serif';
+
+}
+
+.Landing {   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.Landing__section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Landing__section_blue {
+    background-color: #002460;
+    color: #ffffff;
+}
+
+.section {
+    padding: 72px 0;
+    width: 760px;
+}
+
+.section__title {
+    font-size: 32px;
+    font-weight: 700px; 
+}
