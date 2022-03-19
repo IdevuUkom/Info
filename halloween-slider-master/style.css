@@ -51,6 +51,12 @@ html, body {
     color: white;
 }
 
+.site__page {
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
 .menu__logo {
     display: flex;
     flex-wrap: nowrap;
