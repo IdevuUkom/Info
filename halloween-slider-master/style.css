@@ -43,11 +43,40 @@ html, body {
 .site__text {
     display: flex;
     width: 268px;
+    height: 280px;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
     font-size: 32px;
     font-weight: 800;
+    color: white;
+}
+
+.site__text__main {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site__text__big {
+    display: flex;
+    width: 300px;
+    height: 75px;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    align-items: center;
+}
+
+.site__text__mini {
+    display: flex;
+    width: 200px;
+    height: 225px;
+    font-size: 14px;
+    font-weight: 500;
     color: white;
 }
 
@@ -87,6 +116,16 @@ html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.site__content__two {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: stretch;
